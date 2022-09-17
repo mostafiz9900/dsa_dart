@@ -28,3 +28,13 @@ class QueueList<E> implements Queue<E> {
   @override
   String toString() => _list.toString();
 }
+
+
+
+extension NumberParsing on String {
+  int parseInt() {
+    return int.parse(this);
+  }
+// ···
+}
+
